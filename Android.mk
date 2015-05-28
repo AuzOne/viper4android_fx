@@ -1,3 +1,5 @@
+ifneq ($(TARGET_PROVIDES_AUDIO_EFFECTS),true)
+
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
